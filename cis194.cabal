@@ -20,6 +20,7 @@ library
                      , Week1.HanoiTower
                      , Week2.Log
                      , Week2.LogAnalysis
+                     , Week3.Golf
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
@@ -35,6 +36,10 @@ test-suite cis194-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
+  other-modules:       Data.String.StripSpec
+                     , Week1.CreditCardSpec
+                     , Week1.HanoiTowerSpec
+                     , Week2.LogAnalysisSpec
   build-depends:       base
                      , cis194
                      , hspec
