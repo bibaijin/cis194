@@ -1,7 +1,9 @@
 module Week1.CreditCard
   (toDigits
   ,toDigitsRev
-  ,doubleEveryOther)
+  ,doubleEveryOther
+  ,sumDigits
+  ,validate)
   where
 
 main :: IO ()
@@ -25,3 +27,11 @@ doubleEveryOther :: [Integer] -> [Integer]
 doubleEveryOther = reverse . zipWith (*) oneTwo . reverse
   where
     oneTwo = 1 : 2 : oneTwo
+
+sumDigits :: [Integer] -> Integer
+sumDigits = sum . map (sum . toDigits)
+
+validate :: Integer -> Bool
+validate n
+  | n > 0 = mod (sumDigits . doubleEveryOther . toDigits $ n) 10 == 0
+  | otherwise = False
