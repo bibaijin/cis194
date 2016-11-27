@@ -1,4 +1,4 @@
-module Week3.Golf
+module Spring13.Week3.Golf
   (skips
   ,localMaxima
   ,histogram)

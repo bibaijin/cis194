@@ -1,8 +1,8 @@
-module Week1.HanoiTowerSpec where
+module Spring13.Week1.HanoiTowerSpec where
 
 import Test.Hspec
 
-import Week1.HanoiTower
+import Spring13.Week1.HanoiTower
 
 main :: IO ()
 main = hspec spec

@@ -1,4 +1,4 @@
-module Week1.HanoiTower
+module Spring13.Week1.HanoiTower
   (hanoi)
   where
 

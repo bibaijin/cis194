@@ -1,4 +1,4 @@
-module Week1.CreditCard
+module Spring13.Week1.CreditCard
   (toDigits
   ,toDigitsRev
   ,doubleEveryOther

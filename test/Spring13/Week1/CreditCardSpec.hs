@@ -1,11 +1,11 @@
-module Week1.CreditCardSpec
+module Spring13.Week1.CreditCardSpec
   (main
   ,spec)
   where
 
 import Test.Hspec
 
-import Week1.CreditCard
+import Spring13.Week1.CreditCard
 
 main :: IO ()
 main = hspec spec

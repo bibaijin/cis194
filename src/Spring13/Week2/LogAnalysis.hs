@@ -1,4 +1,4 @@
-module Week2.LogAnalysis
+module Spring13.Week2.LogAnalysis
   (parseMessage
   ,parse
   ,insert
@@ -7,7 +7,7 @@ module Week2.LogAnalysis
   ,whatWentWrong)
   where
 
-import Week2.Log
+import Spring13.Week2.Log
 
 parseMessage :: String -> LogMessage
 parseMessage str =

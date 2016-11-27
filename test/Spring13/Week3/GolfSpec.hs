@@ -1,9 +1,9 @@
-module Week3.GolfSpec where
+module Spring13.Week3.GolfSpec where
 
 import Test.Hspec
 import Test.QuickCheck
 
-import Week3.Golf
+import Spring13.Week3.Golf
 
 main :: IO ()
 main = hspec spec

@@ -1,9 +1,9 @@
-module Week2.LogAnalysisSpec where
+module Spring13.Week2.LogAnalysisSpec where
 
 import Test.Hspec
 
-import Week2.LogAnalysis
-import Week2.Log
+import Spring13.Week2.LogAnalysis
+import Spring13.Week2.Log
 
 main :: IO ()
 main = hspec spec

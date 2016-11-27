@@ -1,6 +1,6 @@
 -- CIS 194 Homework 2
 
-module Week2.Log where
+module Spring13.Week2.Log where
 
 import Control.Applicative
 

@@ -1,9 +1,9 @@
-module Week4.Week4Spec where
+module Spring13.Week4.Week4Spec where
 
 import Test.Hspec
 import Test.QuickCheck
 
-import Week4.Week4
+import Spring13.Week4.Week4
 
 main :: IO ()
 main = hspec spec
