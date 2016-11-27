@@ -22,6 +22,10 @@ library
                      , Spring13.Week2.LogAnalysis
                      , Spring13.Week3.Golf
                      , Spring13.Week4.Week4
+                     , Spring13.Week5.Calc
+                     , Spring13.Week5.ExprT
+                     , Spring13.Week5.Parser
+                     , Spring13.Week5.StackVM
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
@@ -43,6 +47,7 @@ test-suite cis194-test
                      , Spring13.Week2.LogAnalysisSpec
                      , Spring13.Week3.GolfSpec
                      , Spring13.Week4.Week4Spec
+                     , Spring13.Week5.CalcSpec
   build-depends:       base
                      , cis194
                      , hspec
