@@ -26,6 +26,7 @@ library
                      , Spring13.Week5.ExprT
                      , Spring13.Week5.Parser
                      , Spring13.Week5.StackVM
+                     , Spring13.Week6.Fibonacci
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
