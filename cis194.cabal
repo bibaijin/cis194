@@ -27,7 +27,14 @@ library
                      , Spring13.Week5.Parser
                      , Spring13.Week5.StackVM
                      , Spring13.Week6.Fibonacci
+                     , Spring13.Week7.Buffer
+                     , Spring13.Week7.Editor
+                     , Spring13.Week7.StringBuffer
+                     , Spring13.Week7.JoinList
+                     , Spring13.Week7.Scrabble
+                     , Spring13.Week7.Sized
   build-depends:       base >= 4.7 && < 5
+                     , mtl
   default-language:    Haskell2010
 
 executable cis194
