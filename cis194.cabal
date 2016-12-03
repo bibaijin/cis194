@@ -33,8 +33,11 @@ library
                      , Spring13.Week7.JoinList
                      , Spring13.Week7.Scrabble
                      , Spring13.Week7.Sized
+                     , Spring13.Week8.Party
+                     , Spring13.Week8.Employee
   build-depends:       base >= 4.7 && < 5
                      , mtl
+                     , containers >= 0.5
   default-language:    Haskell2010
 
 executable cis194
