@@ -70,7 +70,7 @@ instance Applicative Parser where
     Parser (\str ->
               case runParser p1 str of
                 Nothing            -> Nothing
-                Just (f,remaining) -> first f <$> runParser p2 remaining)
+                Just (f,remaining) -> runParser (f <$> p2) remaining)
 
 abParser :: Parser (Char, Char)
 abParser = (\a b -> (a, b)) <$> char 'a' <*> char 'b'

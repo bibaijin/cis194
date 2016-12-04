@@ -36,6 +36,8 @@ library
                      , Spring13.Week8.Party
                      , Spring13.Week8.Employee
                      , Spring13.Week10.AParser
+                     , Spring13.Week11.SExpr
+                     , Spring13.Week11.AParser
   build-depends:       base >= 4.7 && < 5
                      , mtl
                      , containers >= 0.5
