@@ -38,9 +38,11 @@ library
                      , Spring13.Week10.AParser
                      , Spring13.Week11.SExpr
                      , Spring13.Week11.AParser
+                     , Spring13.Week12.Risk
   build-depends:       base >= 4.7 && < 5
                      , mtl
                      , containers >= 0.5
+                     , MonadRandom >= 0.4
   default-language:    Haskell2010
 
 executable cis194
